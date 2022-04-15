@@ -1,0 +1,60 @@
+-- phpMyAdmin SQL Dump
+-- version 5.0.2
+-- https://www.phpmyadmin.net/
+--
+-- Host: 127.0.0.1:3306
+-- Generation Time: Apr 15, 2022 at 07:11 PM
+-- Server version: 5.7.31
+-- PHP Version: 7.3.21
+
+SET SQL_MODE = "NO_AUTO_VALUE_ON_ZERO";
+START TRANSACTION;
+SET time_zone = "+00:00";
+
+
+/*!40101 SET @OLD_CHARACTER_SET_CLIENT=@@CHARACTER_SET_CLIENT */;
+/*!40101 SET @OLD_CHARACTER_SET_RESULTS=@@CHARACTER_SET_RESULTS */;
+/*!40101 SET @OLD_COLLATION_CONNECTION=@@COLLATION_CONNECTION */;
+/*!40101 SET NAMES utf8mb4 */;
+
+--
+-- Database: `mtk`
+-- 
+
+-- --------------------------------------------------------
+
+--
+-- Table structure for table `logininfo`
+--
+DROP DATABASE IF EXISTS `mtk`;
+
+CREATE DATABASE IF NOT EXISTS `mtk`;
+DROP TABLE IF EXISTS `mtk`.`logininfo`;
+CREATE TABLE IF NOT EXISTS `mtk`.`logininfo` (
+  `User_ID` int(11) NOT NULL,
+  `first_name` varchar(500) NOT NULL,
+  `last_name` varchar(500) NOT NULL,
+  `email` varchar(500) NOT NULL,
+  `password` varchar(500) NOT NULL,
+  PRIMARY KEY (`User_ID`)
+) ENGINE=MyISAM DEFAULT CHARSET=latin1;
+
+--
+-- Dumping data for table `logininfo`
+--
+
+INSERT INTO `mtk`.`logininfo` (`User_ID`, `first_name`, `last_name`, `email`, `password`) VALUES
+(107, 'Jerry', 'Johnson', 'Jerry@gmail.com', 'Jerry_123'),
+(105, 'Jack', 'Nick', 'J@gmail.com', 'jack_123'),
+(106, 'Alex', 'Jones', 'AlexJones@gmail.com', 'Alex_jones123'),
+(104, 'Troy', 'Garcia', 't1@gmail.com', 'Troy123'),
+(103, 'Kramptj', 'KC', 'karatekrishsbrother@gmail.com', 'K123'),
+(102, 'Taz', 'Tarfee', 't@gmail.com', 't123'),
+(101, 'Shahzad', 'Rehman', 'shaz@gmail.com', 's123'),
+(100, 'Mohsin', 'Rehman', 'mshakeelrehman@hotmail.com', 'Mohsin10'),
+(108, 'Bob', 'Bob', 'Bob@gmail.com', 'Bob_1234');
+COMMIT;
+
+/*!40101 SET CHARACTER_SET_CLIENT=@OLD_CHARACTER_SET_CLIENT */;
+/*!40101 SET CHARACTER_SET_RESULTS=@OLD_CHARACTER_SET_RESULTS */;
+/*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
