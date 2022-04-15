@@ -17,7 +17,7 @@ MTK Techstore is a concept for an E-Commerce website that allows clients the abi
 
 ## Test Cases
 
-[4.1 Test Cases and Acceptance Cases](/Code/Test_Cases)
+[4.1 Test Cases and Acceptance Cases](/Code/TestCases)
 
 ## Use Cases
 [5.1 Key Use Case](/Code/Key Use Cases)
