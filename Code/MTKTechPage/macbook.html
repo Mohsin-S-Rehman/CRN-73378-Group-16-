@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Home</title>
+	<link rel="stylesheet" href="macbook.css"/>
+</head>
+<body>
+
+	<div id="top-bar">
+
+		<img class="banner-icons" id="logo" src="src/logo.png" width="150pt" height="100pt">
+		
+
+	</div>
+
+	<div id="laptop-images-container">
+		<div id="laptop-images1">
+			<img src="src/Macbooks/14-inch-space-grey.jpg" width="175pt" height="125pt">
+		</div>
+
+		<div id="laptop-images2">
+			<img src="src/Macbooks/face-foward.jpg" width="175pt" height="125pt">
+		</div>
+
+		<div id="laptop-images3">
+			<img src="src/Macbooks/closed.jpg" width="175pt" height="125pt">
+		</div>
+
+		<div id="laptop-images4">
+			<img src="src/Macbooks/both-closed.jpg" width="175pt" height="125pt">
+		</div>
+
+		<div id="laptop-images5">
+			<img src="src/Macbooks/size-comparison.jpg" width="175pt" height="125pt">
+		</div>
+
+	</div>
+	<div id="product-image">
+		
+		<img id = "main-image" src="src/Macbooks/14-inch-space-grey.jpg" width="700pt" height="640pt">
+
+	</div>
+
+	<div id="product-info">
+
+		<p id="product-name">2021 Macbook Pro</p>
+
+		<p id="product-caption">The newest design of Apple's revolutionary Macbook pro model</p>
+
+		<p id="product-details-header">Product Descriptions</p>
+
+		<ul id="product-details">
+			<li>16-core Neural Engine</li>
+			<li>16-inch Liquid Retina XDR display</li>
+			<li>Three Thunderbolt 4 ports, HDMI port, SDXC card slot, MagSafe 3 port</li>
+			<li>Magic Keyboard with Touch ID</li>
+			<li>Force Touch trackpad</li>
+			<li>140W USB-C Power Adapter</li>
+		</ul>
+		
+	</div>	
+
+	<div id="price-box">
+		<p id="price">Price: $1350.00</p>
+		<form id="formforpurchase" action="#">
+      	<label id ="Quantity-label"for="quan">Quantity</label>
+      	<select name="Quantity" id="quan">
+        	<option value="1">1</option>
+        	<option value="2">2</option>
+        	<option value="3">3</option>
+        	<option value="4">4</option>
+        	<option value="5">5</option>
+        	<option value="6#">6</option>
+        	<option value="7">7</option>
+        	<option value="8">8</option>
+      </select>
+      <input id="addtocart"type="submit" value="Add To Cart"/>
+</form>
+	</div>
+		
+	
+
+
+		
+
+
+</body>
+
+<script type="text/javascript">
+    document.getElementById("laptop-images1").onclick = function () {
+        document.getElementById("main-image").src = "src/Macbooks/14-inch-space-grey.jpg"; 
+    };
+
+    document.getElementById("laptop-images2").onclick = function () {
+        document.getElementById("main-image").src = "src/Macbooks/face-foward.jpg"; 
+    };
+
+    document.getElementById("laptop-images3").onclick = function () {
+        document.getElementById("main-image").src = "src/Macbooks/closed.jpg"; 
+    };
+
+    document.getElementById("laptop-images4").onclick = function () {
+        document.getElementById("main-image").src = "src/Macbooks/both-closed.jpg"; 
+    };
+
+    document.getElementById("laptop-images5").onclick = function () {
+        document.getElementById("main-image").src = "src/Macbooks/size-comparison.jpg"; 
+    };
+
+
+   </script>
+
+</html>
