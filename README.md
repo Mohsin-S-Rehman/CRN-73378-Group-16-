@@ -2,8 +2,8 @@ MTK Techstore is a concept for an E-Commerce website that allows clients the abi
 
 # Table Of Contents
 ## Code
-[1.1 Website Code Files](../Code/MTKTechPage)
-[1.1 SQL Database Files](../Code/SQLCode)
+[1.1 Website Code Files](/Code/MTKTechPage)
+[1.2 SQL Database Files](/Code/SQLCode)
 
 ## Design
 ## Requirements
